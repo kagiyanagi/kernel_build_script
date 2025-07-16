@@ -13,8 +13,8 @@ DIST_DIR="$REPO_ROOT/dist"
 
 ARCH="arm64"
 CORES="$(nproc --all)"
-export KBUILD_BUILD_USER="aqua"
-export KBUILD_BUILD_HOST="ai"
+export KBUILD_BUILD_USER="Ren"
+export KBUILD_BUILD_HOST="Kagiyanagi"
 
 OUT_DIR="$REPO_ROOT/out"
 DTB_PATH="$OUT_DIR/arch/$ARCH/boot/dts/mediatek/mt6768.dtb"
